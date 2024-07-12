@@ -119,6 +119,3 @@ def color_picker():
     app.mainloop()
 
     return [f'{colorpicker.rgb}', f'{colorpicker.hex}']
-
-
-print(color_picker())
