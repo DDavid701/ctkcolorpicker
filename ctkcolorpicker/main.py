@@ -107,7 +107,7 @@ def color_picker():
         app.quit()
         app.destroy()
 
-    app = CTk()
+    app = CTkToplevel()
     app.geometry('400x170')
     app.resizable(False, False)
     app.protocol('WM_DELETE_WINDOW', on_close)
